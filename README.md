@@ -2,6 +2,7 @@
 ## 🎯 Objectif du projet
 Ce projet vise à analyser empiriquement les **déterminants macroéconomiques des flux d’Investissements Directs Étrangers (IDE) entrants** à partir d’un échantillon de **100 pays en 2022**.
 Deux questions de recherche principales sont étudiées :
+
 1️⃣ Quels facteurs économiques influencent significativement l’attractivité des IDE ?  
 2️⃣ Ces effets varient-ils selon le niveau de développement économique des pays ?
 Les fondements théoriques mobilisés sont :
@@ -52,8 +53,6 @@ Cette étude applique :
 # ✅ Modèle final retenu
 Après élimination des variables non significatives, le modèle final estimé est :
 > ln(IDE)\_i = 14.958 + 0.1378 · NOCC\_i − 0.59 · SPO\_i + 0.8534 · ln(FBCF\_habitant,i)
----
-## 📈 Performance du modèle
 
 | Indicateur    | Valeur  |
 |--------------|--------:|
