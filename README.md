@@ -109,6 +109,7 @@ Deux sous-échantillons ont été testés :
 |------|------:|------------|
 | Fisher | 0.251 | aucune rupture détectée |
 | Valeur critique | 1.767 | — |
+
 👉 les déterminants de l’IDE sont **structurellement stables**
 
 ---
