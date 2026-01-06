@@ -146,6 +146,3 @@ Les résultats du test de stabilité structurelle sont les suivants :
 **CAO Thi Oanh**
 
 Université de Rennes — Faculté des Sciences Économiques  
-
-- exemple de **projet d’économétrie appliquée** ;  
-- base de travail pour **analyses de politiques publiques** relatives aux IDE.  
