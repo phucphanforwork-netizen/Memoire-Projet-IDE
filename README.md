@@ -1,5 +1,5 @@
 # Analyse économétrique des déterminants de l’Investissement Direct Étranger (IDE) — 2022
-## 🎯 Objectif du projet
+## Objectif du projet
 Ce projet vise à analyser empiriquement les **déterminants macroéconomiques des flux d’Investissements Directs Étrangers (IDE) entrants** à partir d’un échantillon de **100 pays en 2022**.
 Deux questions de recherche principales sont étudiées :
 
@@ -10,7 +10,7 @@ Les fondements théoriques mobilisés sont :
 - la théorie du Système-Monde de **Wallerstein (1974)**  
 
 ---
-## 📦 Données
+## Données
 - Unité d’observation : pays  
 - Taille de l’échantillon : 100  
 - Année observée : 2022  
@@ -24,7 +24,7 @@ Les fondements théoriques mobilisés sont :
 
 ---
 
-## 📌 Variables étudiées
+## Variables étudiées
 ### Variable dépendante
 | Variable | Description |
 |---------|-------------|
@@ -39,7 +39,7 @@ Les fondements théoriques mobilisés sont :
 - Inflation  
 
 ---
-## 📊 Méthodologie
+## Méthodologie
 Cette étude applique :
 - une **régression linéaire par Moindres Carrés Ordinaires (MCO)**  
 - une **élimination progressive (backward)** des variables non significatives  
@@ -50,7 +50,7 @@ Cette étude applique :
   - vérification de la spécification linéaire  
 
 ---
-# ✅ Modèle final retenu
+# Modèle final retenu
 Après élimination des variables non significatives, le modèle final estimé est :
 > ln(IDE)\_i = 14.958 + 0.1378 · NOCC\_i − 0.59 · SPO\_i + 0.8534 · ln(FBCF\_habitant,i)
 
@@ -65,7 +65,7 @@ Après élimination des variables non significatives, le modèle final estimé e
 👉 Le modèle est **hautement significatif** sur le plan statistique.
 
 ---
-## 🔍 Significativité des variables
+## Significativité des variables
 
 | Variable                  | Coefficient | p-value     | Interprétation                        |
 |---------------------------|------------:|------------:|----------------------------------------|
@@ -76,7 +76,7 @@ Après élimination des variables non significatives, le modèle final estimé e
 
 ---
 
-## 🧪 Tests économétriques (diagnostics)
+## Tests économétriques (diagnostics)
 
 | Test                  | Résultat       | Conclusion                          |
 |-----------------------|---------------:|-------------------------------------|
@@ -88,7 +88,7 @@ Après élimination des variables non significatives, le modèle final estimé e
 ✔ Les principales hypothèses des MCO sont raisonnablement satisfaites.
 
 ---
-# 📌 Interprétations économiques
+# Interprétations économiques
 ### 1️⃣ Niveau d’ouverture de commerce concurrentielle (NOCC)
 - Une augmentation d’**un point** de l’indice NOCC est associée à une hausse moyenne d’environ **13,78 %** des flux d’IDE.
 - Un environnement commercial **ouvert et concurrentiel** favorise l’attractivité des capitaux étrangers.
@@ -107,7 +107,7 @@ Ce résultat, contre-intuitif par rapport à l’hypothèse théorique initiale,
 - un effet de composition lié aux pays de l’échantillon.
 
 ---
-# 🌍 Test de rupture structurelle
+# Test de rupture structurelle
 Deux sous-échantillons sont considérés :
 - 31 pays développés  
 - 69 pays en développement
@@ -122,7 +122,7 @@ Les résultats du test de stabilité structurelle sont les suivants :
 👉 Les déterminants de l’IDE sont globalement **les mêmes, quel que soit le niveau de développement**.
 
 ---
-# 🧠 Conclusions principales
+# Conclusions principales
 - Les flux d’IDE sont **positivement influencés** par :
   - l’**ouverture commerciale concurrentielle** (NOCC) ;  
   - la **formation brute de capital fixe par habitant** (FBCF).  
@@ -132,7 +132,7 @@ Les résultats du test de stabilité structurelle sont les suivants :
 - Le **niveau de développement économique** (pays développés vs en développement) ne semble **pas modifier structurellement** les déterminants identifiés.
 
 ---
-# ⚠️ Limites de l’étude
+# Limites de l’étude
 - Analyse **transversale** sur une seule année (2022) :  
   ➜ impossibilité de capter la dynamique temporelle des IDE.
 - Variables explicatives **limitées** :
@@ -141,15 +141,11 @@ Les résultats du test de stabilité structurelle sont les suivants :
   ➜ les déterminants peuvent différer entre IDE industriels, financiers ou de services.
 
 ---
-## 👤 Auteur
+## Auteur
 **PHAN Nguyen Hoang Phuc**  
 **CAO Thi Oanh**
+
 Université de Rennes — Faculté des Sciences Économiques  
 
----
-## 💼 Finalité du dépôt
-Ce dépôt GitHub peut être utilisé comme :
-- support de **mémoire de fin de licence** ;  
-- élément de **portfolio académique** pour candidatures en Master ou stage ;  
 - exemple de **projet d’économétrie appliquée** ;  
 - base de travail pour **analyses de politiques publiques** relatives aux IDE.  
