@@ -1,5 +1,5 @@
-# Analyse économétrique des déterminants de l’Investissement Direct Étranger (IDE) — 2022
-## Objectif du projet
+# 📌 Valorisation d’Options Européennes — Modèle de Black-Scholes & Simulation de Monte-Carlo
+## 🎓  Objectif du projet
 Ce projet vise à analyser empiriquement les **déterminants macroéconomiques des flux d’Investissements Directs Étrangers (IDE) entrants** à partir d’un échantillon de **100 pays en 2022**.
 Deux questions de recherche principales sont étudiées :
 
